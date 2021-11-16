@@ -1,6 +1,5 @@
 "use strict";
 
-const events = require("../hub");
 
 function pickup(payload) {
   console.log(`==========================================================\n`);
@@ -12,7 +11,6 @@ function pickup(payload) {
     payload: payload,
   };
   console.log("EVENT", pickupEvent);
-  events.emit("in-transit", payload);
 }
 
 module.exports = pickup;

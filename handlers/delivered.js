@@ -1,5 +1,4 @@
 "use strict";
-const events=require('../hub')
 function delivered(payload) {
 setTimeout(() => {
   console.log(`==========================================================\n`);
@@ -11,8 +10,7 @@ setTimeout(() => {
     payload: payload,
   };
   console.log("EVENT", deliveredEvent);
-  events.emit('done',payload)
-}, 2000);
+}, 3500);
 }
 
 module.exports = delivered;

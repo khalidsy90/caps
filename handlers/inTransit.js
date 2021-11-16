@@ -1,5 +1,4 @@
 "use strict";
-const events = require("../hub");
 function inTransit(payload) {
 setTimeout(() => {
   console.log(`==========================================================\n`);
@@ -11,7 +10,6 @@ setTimeout(() => {
       payload: payload,
     };
     console.log("EVENT", inTRansitEvent);
-    events.emit("delivered", payload);
   }, 3000);
 }
 

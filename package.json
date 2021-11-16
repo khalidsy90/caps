@@ -1,7 +1,7 @@
 {
   "name": "caps",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Author : Khalid Hamedi**",
   "main": "caps.js",
   "dependencies": {
     "abab": "^2.0.5",
@@ -55,6 +55,7 @@
     "detect-newline": "^3.1.0",
     "diff-sequences": "^27.0.6",
     "domexception": "^2.0.1",
+    "dotenv": "^10.0.0",
     "electron-to-chromium": "^1.3.896",
     "emittery": "^0.8.1",
     "emoji-regex": "^8.0.0",
@@ -108,6 +109,7 @@
     "istanbul-lib-report": "^3.0.0",
     "istanbul-lib-source-maps": "^4.0.1",
     "istanbul-reports": "^3.0.5",
+    "jest": "^27.3.1",
     "jest-changed-files": "^27.3.0",
     "jest-circus": "^27.3.1",
     "jest-cli": "^27.3.1",
@@ -199,6 +201,8 @@
     "signal-exit": "^3.0.5",
     "sisteransi": "^1.0.5",
     "slash": "^3.0.0",
+    "socket.io": "^4.3.2",
+    "socket.io-client": "^4.3.2",
     "source-map": "^0.6.1",
     "source-map-support": "^0.5.20",
     "sprintf-js": "^1.0.3",
@@ -246,12 +250,17 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
-    "test": "jest"
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalidsy90/caps.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.3.1"
-  }
+  "bugs": {
+    "url": "https://github.com/khalidsy90/caps/issues"
+  },
+  "homepage": "https://github.com/khalidsy90/caps#readme"
 }

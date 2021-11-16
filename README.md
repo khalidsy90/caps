@@ -22,11 +22,11 @@ setup a system of events and handlers, with the intent being to change out the e
 
 - driver.js - Drivers Module Monitor the system for events … On the ‘pickup’ event … Wait 1 second Log “DRIVER: picked up [ORDER_ID]” to the console. Emit an ‘in-transit’ event with the payload you received Wait 3 seconds Log “delivered” to the console Emit a ‘delivered’ event with the same payload
 
-## UML :
+## UML
 
 ![](lab11.jpg)
 
-## Links :
+## Links
 
 [Actions](https://github.com/khalidsy90/caps/actions)
 [Pull Request]()
