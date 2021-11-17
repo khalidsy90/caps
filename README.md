@@ -29,9 +29,31 @@ setup a system of events and handlers, with the intent being to change out the e
 ## Links
 
 [Actions](https://github.com/khalidsy90/caps/actions)
-[Pull Request]()
+[Branch Events](https://github.com/khalidsy90/caps/tree/events)
+[Branch Sockeit.io](https://github.com/khalidsy90/caps/tree/sockitIo)
 
 ---
 
 console output :
 ![](log.jpg)
+
+---
+
+# Socket.io
+
+**A real-time service that allows for vendors, such as flower shops or restaurants, to alert a system of a package needing to be delivered, for drivers to instantly see what’s in their pickup queue, and then to alert the vendors as to the state of the deliveries (in transit, and then delivered)**
+
+### UML
+
+![](lab12.jpg)
+
+### SetUp :
+
+- **npm i dotenv faker jest npm i socket.io socket.io-client**
+- **Start the server using node hub.js , node modules/vendor.js , node modules/driver.js by splitting the terminal window to three parts or open 3 terminal windows and run each commapn on a different part to see the connection between the servers**
+
+![](lab12%20terminal.jpg)
+
+### test
+
+![](testlab12.jpg)

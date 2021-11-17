@@ -5,6 +5,7 @@ const host =`http://localhost:${PORT}`
 const capsSystem=io.connect(`${host}/capsSystem`)
 
 const faker= require('faker')
+
 let payload = {
   store: faker.company.companyName(),
   orderId: faker.datatype.uuid(),
@@ -14,7 +15,7 @@ let payload = {
 
 capsSystem.emit('pickup',payload)
 
-capsSystem.on('delivered',(payload)=>{
+capsSystem.on('delivered-vendor',(payload)=>{
   console.log(`VENDOR: Thank you for delivering ${payload.orderId}`);
-  capsSystem.emit('delivered',payload)
+  process.exit();
 })
